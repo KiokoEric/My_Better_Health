@@ -1,0 +1,264 @@
+.Header {
+    background-color: white;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    margin: auto;
+    padding: 0.5rem 2rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 4; 
+}
+.Header section:first-child figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.Header section:first-child figure h1 {
+    margin-top: 0.25rem;
+}
+.Header section:first-child figure h1:hover {
+    color: rgb(28, 202, 202);
+}
+.Header section:nth-child(2) nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.8rem;
+    list-style-type: none;
+    margin-top: 0.6rem;
+}
+.Header section:last-child button {
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    margin-top: 0.2rem;
+    padding: 0.3rem 1rem;
+}
+.Header section:last-child button i {
+    margin-right: 0.5rem;
+}
+.Link {
+    color: black;
+    text-decoration: none;
+}
+.Link:hover {
+    color: rgb(28, 202, 202);
+}
+#Bars {
+    display: none;
+}
+#Favourites {
+    display: none;
+}
+.Favourites {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .Header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding: 0.4rem 0.2rem;
+        width: 768px;
+    }
+    .Header section:first-child figure img {
+        height: 40px;
+        margin-left: 0.8rem;
+        width: 40px;
+    }
+    .Header section:first-child figure figcaption h1 {
+        font-size: 26px;
+        margin-top: 0.35rem;
+    }
+    .Header section:nth-child(2) nav {
+        background-color: white;
+        border-radius: 0px 0px 0px 10px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.2rem;
+        height: 350px;
+        margin-top: 0rem;
+        margin-left: 15rem;
+        padding-top: 0.8rem;
+        width: 200px;
+    }
+    .Navigation {
+        border-bottom: 1px solid black;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 150px;
+    }
+    .OpenNavigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 3.45rem;
+        left: 14rem;
+        transition: all 0.5s linear;
+        transform: translateX(60%);
+        width: 350px;
+    }
+    .CloseNavigation{
+        position: absolute;
+        top: 3.5rem;
+        transform: translateX(180%);
+        transition: all 0.5s linear;
+    }
+    #Bars {
+        display: block;
+        margin-top: 1.2rem;
+        margin-left: -2.5rem;
+    }
+    #Favourites {
+        display: block;
+    }
+    .Header section:last-child button {
+        display: none;
+    }
+}
+
+@media (max-width: 428px) {
+    .Header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding: 1.2rem 0.2rem;
+        width: 428px;
+    }
+    .Header section:first-child figure img {
+        height: 30px;
+        margin-left: 0.8rem;
+        width: 30px;
+    }
+    .Header section:first-child figure figcaption h1 {
+        font-size: 18px;
+    }
+    .Header section:nth-child(2) nav {
+        background-color: white;
+        border-radius: 0px 0px 0px 10px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.2rem;
+        height: 350px;
+        margin-top: -0.035rem;
+        margin-left: -3rem;
+        padding-top: 0.8rem;
+        width: 200px;
+        z-index: 5;
+    }
+    .Navigation {
+        border-bottom: 1px solid black;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 150px;
+    }
+    .OpenNavigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 3.45rem;
+        left: 11rem;
+        transition: all 0.5s linear;
+        transform: translateX(60%);
+        width: 350px;
+    }
+    .CloseNavigation{
+        position: absolute;
+        top: 3.5rem;
+        transform: translateX(180%);
+        transition: all 0.5s linear;
+    }
+    #Bars {
+        display: block;
+        margin-top: 0.55rem;
+        margin-left: -2.5rem;
+    }
+    #Favourites {
+        display: block;
+    }
+    .Header section:last-child button {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .Header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding: 1.2rem 0.2rem;
+        width: 375px;
+    }
+    .Header section:first-child figure img {
+        height: 30px;
+        margin-left: 0.8rem;
+        width: 30px;
+    }
+    .Header section:first-child figure figcaption h1 {
+        font-size: 18px;
+    }
+    .Header section:nth-child(2) nav {
+        background-color: white;
+        border-radius: 0px 0px 0px 10px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.2rem;
+        height: 330px;
+        margin-top: -0.035rem;
+        margin-left: -3rem;
+        padding-top: 0.8rem;
+        width: 200px;
+    }
+    .Navigation {
+        border-bottom: 1px solid black;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 150px;
+    }
+    .OpenNavigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 3.45rem;
+        left: 8.5rem;
+        transition: all 0.5s linear;
+        transform: translateX(60%);
+        width: 350px;
+    }
+    .CloseNavigation{
+        position: absolute;
+        top: 3.5rem;
+        transform: translateX(180%);
+        transition: all 0.5s linear;
+    }
+    #Bars {
+        display: block;
+        margin-top: 0.55rem;
+        margin-left: -2.5rem;
+    }
+    #Favourites {
+        display: block;
+    }
+    .Header section:last-child button {
+        display: none;
+    }
+}
