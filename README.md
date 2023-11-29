@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<h1 align="center"> Welcome to Better Health </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center" >
+Better Health is a fully responsive online destination for holistic health and fitness guidance. Our website is designed to empower individuals on their journey to optimal well-being by providing comprehensive resources.
 
-## Available Scripts
+  <br><br>
+  
+The website application was built using React JS and use of ExerciseDB API, Meal DB API, Edamam API and calories-burned-by-api-ninjas.
 
-In the project directory, you can run:
+[Live Demo](https://kiokoeric.github.io/Better_Health)
+</div>
 
-### `npm start`
+<h2 align="center"> Website Pages </h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div>
+  <h3 align="center" >Home Section</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <div align="center" >
+    <img  src="https://i.postimg.cc/CxMGjC8z/Exercise-Home-Section.jpg"> 
 
-### `npm test`
+  </div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <br>
+  
+  <p align="center" >The Home section provides the users with an introduction to the application, explaining to the user what the application provides and the different resources that are available to its users.</p>
+</div>
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div>
+  <h3 align="center" >Exercise Section</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <div align="center" >
+    <img  src="https://i.postimg.cc/d1wMjt2s/Exercise-Section.jpg"> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  </div>
 
-### `npm run eject`
+  <br>
+  
+  <p align="center">The Exercise section allows its users to immerse themselves in a treasure trove of different muscle exercises based upon their selection.</p>
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div>
+  <h3 align="center" >Nutrition Section</h3>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <div align="center" >
+    <img  src="https://i.postimg.cc/0NxMDDBb/Nutrition-Section.jpg"> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  </div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  <br>
+  
+  <p align="center">The Nutrition section offers its users with a detailed nutritional breakdown of each recipe based upon their search entry.</p>
+</div>
 
-## Learn More
+<div>
+  <h3 align="center" >Recipes Section</h3>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <div align="center" >
+    <img  src="https://i.postimg.cc/5t7sr4vq/Recipes-Section.jpg"> 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  </div>
 
-### Code Splitting
+  <br>
+  <p align="center">The recipes section features a robust search function, allowing users to easily find recipes based on their search interests.</p>
+  
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div>
+  
+<h3 align="center" >Recipe Details</h3>
 
-### Analyzing the Bundle Size
+  <div align="center" >
+    <img  src="https://i.postimg.cc/sXbzJ28L/Recipe-Details.jpg"> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  </div>
 
-### Making a Progressive Web App
+  <br>
+  <p align="center">On clicking on any of the recipes displayed in the application, the user will be directed toward a recipe detail section. In this section the recipe selected is presented together with the necessary ingredients, clear step-by-step directions as well as a high-quality video to guide you through the cooking process</p>
+  
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div>
+  
+<h3 align="center" >Fitness Calculator Section</h3>
 
-### Advanced Configuration
+  <div align="center">
+    <img  src="https://i.postimg.cc/zXQXqKr9/Fitness-Calculator-Section.jpg"> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  </div>
 
-### Deployment
+  <br> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  <p align="center" >
+    The Fitness Calculator Section offers a body mass index Calculator and allows users to track the calories they have been able to burn as per the exercises they have engaged in and time they have spent carrying out the exercise.
+  </p>
+  
+</div>
 
-### `npm run build` fails to minify
+<div>
+  
+<h3 align="center" >Favourites Section</h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <div align="center" >
+    <img  src="https://i.postimg.cc/bN4gkVPL/Exercise-Favourite-Section.jpg"> 
+
+  </div>
+
+  <br>
+  <p align="center">The favourites section is a section that allows users of better health to add a bookmark to a specific body exercise allowing them to quickly access their bookmarked content without needing to remember on the favourites section page. </p>
+</div>
+
+
+
+
+
