@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Better_Health/static/css/main.4d30091e.css",
+    "main.js": "/Better_Health/static/js/main.24384afa.js",
+    "static/js/787.0f376baa.chunk.js": "/Better_Health/static/js/787.0f376baa.chunk.js",
+    "static/media/Recipe_HomeImage.jpg": "/Better_Health/static/media/Recipe_HomeImage.bbb1352aeaac5dc8f3a2.jpg",
+    "static/media/Nutrition_HomeImage.jpg": "/Better_Health/static/media/Nutrition_HomeImage.7f7553a33d3e44e1944a.jpg",
+    "static/media/Exercise_HomeImage.jpg": "/Better_Health/static/media/Exercise_HomeImage.65f30320cc0f55031f9c.jpg",
+    "static/media/Responsive_Recipe_HomeImage.jpg": "/Better_Health/static/media/Responsive_Recipe_HomeImage.4a75fafd8745b5102415.jpg",
+    "static/media/Fitness_Home_Image.jpg": "/Better_Health/static/media/Fitness_Home_Image.696e7df0064369e3c67e.jpg",
+    "static/media/Responsive_Nutrition_HomeImage.jpg": "/Better_Health/static/media/Responsive_Nutrition_HomeImage.0b5f70e1f74c3a3f93de.jpg",
+    "static/media/Responsive_Exercise_HomeImage.jpg": "/Better_Health/static/media/Responsive_Exercise_HomeImage.e342ffe3b7b54778e9b3.jpg",
+    "static/media/Header_Logo.webp": "/Better_Health/static/media/Header_Logo.b6060ef625a077ebaf14.webp",
+    "index.html": "/Better_Health/index.html",
+    "main.4d30091e.css.map": "/Better_Health/static/css/main.4d30091e.css.map",
+    "main.24384afa.js.map": "/Better_Health/static/js/main.24384afa.js.map",
+    "787.0f376baa.chunk.js.map": "/Better_Health/static/js/787.0f376baa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d30091e.css",
+    "static/js/main.24384afa.js"
+  ]
+}
